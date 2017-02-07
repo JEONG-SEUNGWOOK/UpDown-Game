@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UpDownGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wM1-XP-Khe" userLabel="Segment Control">
+                                <rect key="frame" x="26" y="50" width="323" height="29"/>
+                                <segments>
+                                    <segment title="1-10"/>
+                                    <segment title="1-50"/>
+                                    <segment title="1-100"/>
+                                </segments>
+                                <connections>
+                                    <action selector="selectSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="D6B-P1-nrL"/>
+                                </connections>
+                            </segmentedControl>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XSo-6Q-skN">
+                                <rect key="frame" x="36" y="105.5" width="263" height="2"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 / 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6L-qy-nUH">
+                                <rect key="frame" x="314" y="96" width="35" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1~10 사이의 값을 입력해주세요" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvH-7s-28D">
+                                <rect key="frame" x="26" y="132" width="323" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f2u-pO-WxD">
+                                <rect key="frame" x="36" y="177" width="237" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yic-6D-FyG">
+                                <rect key="frame" x="319" y="177" width="30" height="30"/>
+                                <state key="normal" title="리셋"/>
+                                <connections>
+                                    <action selector="touchResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdt-1k-No0"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2pP-UY-ryj">
+                                <rect key="frame" x="26" y="233" width="323" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewReuseIdentifier" id="McG-D5-BoQ">
+                                        <rect key="frame" x="0.0" y="28" width="323" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="McG-D5-BoQ" id="ZUN-hf-w7P">
+                                            <rect key="frame" x="0.0" y="0.0" width="323" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="56J-lB-hz8"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UJ2-Xx-oyy"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkZ-3B-LAX">
+                                <rect key="frame" x="281" y="177" width="30" height="30"/>
+                                <state key="normal" title="확인"/>
+                                <connections>
+                                    <action selector="touchOkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cX1-om-btH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f2u-pO-WxD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="0c8-pb-FSN"/>
+                            <constraint firstItem="kkZ-3B-LAX" firstAttribute="leading" secondItem="f2u-pO-WxD" secondAttribute="trailing" constant="8" id="53H-V6-Cgw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d6L-qy-nUH" secondAttribute="trailing" constant="10" id="7vY-zl-Mlc"/>
+                            <constraint firstItem="yic-6D-FyG" firstAttribute="top" secondItem="CvH-7s-28D" secondAttribute="bottom" constant="24" id="8sn-Ul-UTc"/>
+                            <constraint firstItem="wM1-XP-Khe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Au4-4Q-V1X"/>
+                            <constraint firstItem="CvH-7s-28D" firstAttribute="top" secondItem="d6L-qy-nUH" secondAttribute="bottom" constant="15" id="Gle-68-eqK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XSo-6Q-skN" secondAttribute="trailing" constant="60" id="IGc-Nk-B4b"/>
+                            <constraint firstItem="f2u-pO-WxD" firstAttribute="top" secondItem="CvH-7s-28D" secondAttribute="bottom" constant="24" id="IoI-DP-2lZ"/>
+                            <constraint firstItem="kkZ-3B-LAX" firstAttribute="top" secondItem="CvH-7s-28D" secondAttribute="bottom" constant="24" id="Q48-Eu-PMI"/>
+                            <constraint firstItem="XSo-6Q-skN" firstAttribute="top" secondItem="wM1-XP-Khe" secondAttribute="bottom" constant="27" id="UtK-Od-XAb"/>
+                            <constraint firstItem="CvH-7s-28D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="X9b-uU-9oX"/>
+                            <constraint firstItem="d6L-qy-nUH" firstAttribute="top" secondItem="wM1-XP-Khe" secondAttribute="bottom" constant="18" id="Xv8-yY-d7a"/>
+                            <constraint firstItem="XSo-6Q-skN" firstAttribute="top" secondItem="wM1-XP-Khe" secondAttribute="bottom" constant="27" id="dPG-KE-wVz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wM1-XP-Khe" secondAttribute="trailing" constant="10" id="hsg-bf-B9N"/>
+                            <constraint firstItem="yic-6D-FyG" firstAttribute="leading" secondItem="kkZ-3B-LAX" secondAttribute="trailing" constant="8" id="lhB-6E-RIn"/>
+                            <constraint firstItem="XSo-6Q-skN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="mx7-af-Dc6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CvH-7s-28D" secondAttribute="trailing" constant="10" id="vfL-yF-jn7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yic-6D-FyG" secondAttribute="trailing" constant="10" id="xxf-93-3WM"/>
+                            <constraint firstItem="wM1-XP-Khe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="zwP-Hb-vkn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="inputAnswerField" destination="f2u-pO-WxD" id="t1r-QS-keO"/>
+                        <outlet property="inputLabel" destination="CvH-7s-28D" id="B30-k6-72a"/>
+                        <outlet property="logTableView" destination="2pP-UY-ryj" id="DCN-3g-vZT"/>
+                        <outlet property="okButton" destination="kkZ-3B-LAX" id="nBn-7S-Usk"/>
+                        <outlet property="progressBar" destination="XSo-6Q-skN" id="zN4-E2-3uy"/>
+                        <outlet property="progressCounter" destination="d6L-qy-nUH" id="yrd-Lg-ds9"/>
+                        <outlet property="resetButton" destination="yic-6D-FyG" id="0yr-j9-AQo"/>
+                        <outlet property="segmentControl" destination="wM1-XP-Khe" id="ipw-DF-AjD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

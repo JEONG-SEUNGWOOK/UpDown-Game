@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBDC29DA1E38F10100CBDBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDC29D91E38F10100CBDBAA /* AppDelegate.swift */; };
+		FBDC29DC1E38F10100CBDBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDC29DB1E38F10100CBDBAA /* ViewController.swift */; };
+		FBDC29DF1E38F10100CBDBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDC29DD1E38F10100CBDBAA /* Main.storyboard */; };
+		FBDC29E11E38F10100CBDBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDC29E01E38F10100CBDBAA /* Assets.xcassets */; };
+		FBDC29E41E38F10100CBDBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDC29E21E38F10100CBDBAA /* LaunchScreen.storyboard */; };
+		FBDC2A061E390E1200CBDBAA /* UpDownGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDC2A051E390E1200CBDBAA /* UpDownGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBDC29D61E38F10100CBDBAA /* UpDownGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDC29D91E38F10100CBDBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBDC29DB1E38F10100CBDBAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBDC29DE1E38F10100CBDBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBDC29E01E38F10100CBDBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBDC29E31E38F10100CBDBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBDC29E51E38F10100CBDBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDC2A051E390E1200CBDBAA /* UpDownGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpDownGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDC29D31E38F10100CBDBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDC29CD1E38F10100CBDBAA = {
+			isa = PBXGroup;
+			children = (
+				FBDC29D81E38F10100CBDBAA /* UpDownGameApp */,
+				FBDC29D71E38F10100CBDBAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC29D71E38F10100CBDBAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDC29D61E38F10100CBDBAA /* UpDownGameApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDC29D81E38F10100CBDBAA /* UpDownGameApp */ = {
+			isa = PBXGroup;
+			children = (
+				FBDC29D91E38F10100CBDBAA /* AppDelegate.swift */,
+				FBDC29DB1E38F10100CBDBAA /* ViewController.swift */,
+				FBDC29DD1E38F10100CBDBAA /* Main.storyboard */,
+				FBDC29E01E38F10100CBDBAA /* Assets.xcassets */,
+				FBDC29E21E38F10100CBDBAA /* LaunchScreen.storyboard */,
+				FBDC29E51E38F10100CBDBAA /* Info.plist */,
+				FBDC2A051E390E1200CBDBAA /* UpDownGame.swift */,
+			);
+			path = UpDownGameApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDC29D51E38F10100CBDBAA /* UpDownGameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDC29E81E38F10100CBDBAA /* Build configuration list for PBXNativeTarget "UpDownGameApp" */;
+			buildPhases = (
+				FBDC29D21E38F10100CBDBAA /* Sources */,
+				FBDC29D31E38F10100CBDBAA /* Frameworks */,
+				FBDC29D41E38F10100CBDBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UpDownGameApp;
+			productName = UpDownGameApp;
+			productReference = FBDC29D61E38F10100CBDBAA /* UpDownGameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDC29CE1E38F10100CBDBAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = boostcamp;
+				TargetAttributes = {
+					FBDC29D51E38F10100CBDBAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBDC29D11E38F10100CBDBAA /* Build configuration list for PBXProject "UpDownGameApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBDC29CD1E38F10100CBDBAA;
+			productRefGroup = FBDC29D71E38F10100CBDBAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDC29D51E38F10100CBDBAA /* UpDownGameApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDC29D41E38F10100CBDBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDC29E41E38F10100CBDBAA /* LaunchScreen.storyboard in Resources */,
+				FBDC29E11E38F10100CBDBAA /* Assets.xcassets in Resources */,
+				FBDC29DF1E38F10100CBDBAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDC29D21E38F10100CBDBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDC29DC1E38F10100CBDBAA /* ViewController.swift in Sources */,
+				FBDC2A061E390E1200CBDBAA /* UpDownGame.swift in Sources */,
+				FBDC29DA1E38F10100CBDBAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBDC29DD1E38F10100CBDBAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDC29DE1E38F10100CBDBAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBDC29E21E38F10100CBDBAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDC29E31E38F10100CBDBAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBDC29E61E38F10100CBDBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBDC29E71E38F10100CBDBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBDC29E91E38F10100CBDBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UpDownGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boostcamp.UpDownGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FBDC29EA1E38F10100CBDBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UpDownGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boostcamp.UpDownGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDC29D11E38F10100CBDBAA /* Build configuration list for PBXProject "UpDownGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDC29E61E38F10100CBDBAA /* Debug */,
+				FBDC29E71E38F10100CBDBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDC29E81E38F10100CBDBAA /* Build configuration list for PBXNativeTarget "UpDownGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDC29E91E38F10100CBDBAA /* Debug */,
+				FBDC29EA1E38F10100CBDBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBDC29CE1E38F10100CBDBAA /* Project object */;
+}
