@@ -14,7 +14,7 @@ struct UpDownGame{
     static let up = 1
     static let down = -1
     
-    private let answer : Int
+    private let answer : Int?
     private var limitCount : Int = 5
     private var max : UInt32 = 10
     private var count : Int = 0
